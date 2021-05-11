@@ -1,0 +1,27 @@
+PROCEDURE insertionSort(var t :ARRAY_OF INTEGER)
+VAR
+    int: x,y;
+    
+BEGIN
+    set_instructions
+
+	
+    for i = 1 to t.length  do:
+	
+
+    y = t[i]
+    x = i
+        
+
+		
+    while x > 0 and t[x-1] > y do:
+        t[x] = t[x-1]
+        x = x -1
+    end while
+		
+
+    t[x] = y
+
+    end for
+	
+END
